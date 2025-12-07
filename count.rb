@@ -136,4 +136,4 @@ def find_repeating_word_phrases(text, y)
   result
 end
 
-p find_repeating_word_phrases(bible,49)
+p find_repeating_word_phrases(bible,12)
