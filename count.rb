@@ -107,7 +107,7 @@ def range_min(st, left, right)
 end
 
 def find_repeating_word_phrases(text, y)
-  return [] if y < 2 || text.empty?
+  return [] if y < 0 || text.empty?
   words = text.split(/\s+/).reject(&:empty?)
   n = words.length
   return [] if n < y
@@ -136,6 +136,8 @@ def find_repeating_word_phrases(text, y)
   result
 end
 
-for x in 101..1000
-find_repeating_word_phrases(bible,x)
-end
+#for x in 101..1000
+find_repeating_word_phrases(bible,2)
+#end
+
+
