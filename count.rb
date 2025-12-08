@@ -136,6 +136,6 @@ def find_repeating_word_phrases(text, y)
   result
 end
 
-for x in 1..100 
+for x in 101..1000
 find_repeating_word_phrases(bible,x)
 end
